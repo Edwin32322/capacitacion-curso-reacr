@@ -8,7 +8,7 @@ const initialForm = {
 }
 export const CrudForm = ({ createData, updateData, productToEdit, setProductToEdit }) => {
 
-    const [form, setForm, handleChange, handleReset] = useForm(initialForm)
+    const { form, setForm, handleChange, handleReset } = useForm(initialForm)
     const handleSubmit = (e) => {
         e.preventDefault()
         if (form.nombre === "" || form.precio === "") {
@@ -16,6 +16,7 @@ export const CrudForm = ({ createData, updateData, productToEdit, setProductToEd
             return
         }
         if (form.id === null) {
+            delete form.id
             createData(form)
         } else {
             updateData(form)

@@ -1,29 +1,19 @@
 {
-    "productos": [
-        {
-            "id": 1,
-            "nombre": "Camiseta",
-            "precio": 19.99
-        },
-        {
-            "id": 2,
-            "nombre": "Pantalones",
-            "precio": 29.99
-        },
-        {
-            "id": 3,
-            "nombre": "Reloj",
-            "precio": 99.99
-        },
-        {
-            "id": 4,
-            "nombre": "Gorra",
-            "precio": 14.99
-        },
-        {
-            "id": 5,
-            "nombre": "Zapatillas",
-            "precio": 49.99
-        }
-    ]
+  "productos": [
+    {
+      "id": "2a17",
+      "nombre": "Javier",
+      "precio": "29.99"
+    },
+    {
+      "id": "36ff",
+      "nombre": "Javier",
+      "precio": "29.99"
+    },
+    {
+      "id": "3081",
+      "nombre": "324",
+      "precio": "asdasdsa"
+    }
+  ]
 }
